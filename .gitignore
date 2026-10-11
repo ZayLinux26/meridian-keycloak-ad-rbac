@@ -218,3 +218,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Lab secrets and PKI material: never commit
+*.key
+*.pem
+*.crt
+*.cer
+*.csr
+*.pfx
+*.p12
+*.cred.xml
+revocation-log.csv
+keycloak-export*/
+realm-export*.json
